@@ -1,0 +1,144 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://vedera.de/schema/vedera-sitemap.schema.json",
+  "title": "Vedera Sitemap",
+  "type": "object",
+  "required": ["domain", "languages", "sitemap"],
+  "properties": {
+    "domain": {
+      "type": "string",
+      "format": "uri"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1
+    },
+    "sitemap": {
+      "type": "object",
+      "required": [
+        "pages",
+        "categories",
+        "manufacturers",
+        "news",
+        "footer_navigation_groups",
+        "social_media"
+      ],
+      "properties": {
+        "pages": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "categories": {
+          "type": "object",
+          "required": ["usm_haller", "sonstiges", "vitra", "querschnitt"],
+          "properties": {
+            "usm_haller": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "sonstiges": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "vitra": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "querschnitt": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "manufacturers": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "news": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["month", "year", "articles"],
+            "properties": {
+              "month": {
+                "type": "string",
+                "minLength": 1
+              },
+              "year": {
+                "type": "integer",
+                "minimum": 1900
+              },
+              "articles": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "footer_navigation_groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["title", "links"],
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "links": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "social_media": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
