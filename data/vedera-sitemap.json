@@ -1,0 +1,215 @@
+{
+  "domain": "https://vedera.de",
+  "languages": ["de", "en"],
+  "sitemap": {
+    "pages": [
+      "Kontakt",
+      "Montage",
+      "Über uns",
+      "Termine vereinbaren",
+      "Zahlungsmöglichkeiten",
+      "Sitemap",
+      "Versandkosten",
+      "Newsletter",
+      "Ankauf",
+      "Ankauf Cassina",
+      "Ankauf USM Haller",
+      "Ankauf Vitra",
+      "Allgemeine Geschäftsbedingungen",
+      "Datenschutz",
+      "Impressum",
+      "Widerrufsbelehrung & Widerrufsformular",
+      "USM Haller Lagerverkauf",
+      "USM Haller Lagerverkauf in Bensheim",
+      "Räumungsverkauf USM Haller und Vitra in Mannheim",
+      "USM Haller Angebote",
+      "USM Haller gebraucht",
+      "USM Haller Lagerverkauf Frankfurt am Main",
+      "USM Haller Sideboard",
+      "USM Sideboard",
+      "Vitra Lagerverkauf"
+    ],
+    "categories": {
+      "usm_haller": [
+        "USM Haller",
+        "Container",
+        "Druckertische",
+        "Garderoben",
+        "Lowboards",
+        "Nachttische",
+        "Pflanzkübel",
+        "Regale",
+        "Sideboards",
+        "Theken Empfang",
+        "Tische",
+        "USM Inos"
+      ],
+      "sonstiges": [
+        "Sonstiges",
+        "Bilder",
+        "Diverses",
+        "Heimtextilien",
+        "Zubehör"
+      ],
+      "vitra": [
+        "Vitra",
+        "Container",
+        "Lampen",
+        "Lowboards",
+        "Polstermöbel",
+        "Regale",
+        "Sideboards"
+      ],
+      "querschnitt": [
+        "Stühle",
+        "Tische",
+        "Hersteller"
+      ]
+    },
+    "manufacturers": [
+      "Alias",
+      "Arper",
+      "Artek",
+      "Artemide",
+      "B&B Italia",
+      "Belux",
+      "Bene",
+      "Bernhardt Design USA",
+      "Brunner",
+      "CasaMilano",
+      "Cascando",
+      "Cassina",
+      "ClassiCon",
+      "Coolaroo",
+      "Elro",
+      "Fiam",
+      "Fritz Hansen",
+      "Girsberger",
+      "Haworth",
+      "HAY",
+      "Interstuhl",
+      "Louis De Poortere",
+      "Magis",
+      "Marktex",
+      "Molteni & C / UniFor",
+      "Nimbus",
+      "Oktalite",
+      "PieperConcept",
+      "Rexite",
+      "Ruckstuhl",
+      "SMV",
+      "Tecnolumen",
+      "Thonet",
+      "USM Haller",
+      "Varo",
+      "Vitra",
+      "Vitsoe",
+      "Walter Knoll",
+      "Wilkhahn",
+      "Zanotta"
+    ],
+    "news": [
+      {
+        "month": "November",
+        "year": 2025,
+        "articles": [
+          "Garantierte Authentizität: Original Designklassiker"
+        ]
+      },
+      {
+        "month": "Oktober",
+        "year": 2025,
+        "articles": [
+          "USM Haller – Chromteile & Rohre richtig aufarbeiten"
+        ]
+      },
+      {
+        "month": "Februar",
+        "year": 2025,
+        "articles": [
+          "USM Haller Farben Übersicht"
+        ]
+      },
+      {
+        "month": "Dezember",
+        "year": 2024,
+        "articles": [
+          "USM Haller - Schlüsselnummer herausfinden, um einen Schlüssel nachbestellen zu können."
+        ]
+      },
+      {
+        "month": "September",
+        "year": 2024,
+        "articles": [
+          "USM Haller - Eine Wertanlage ?"
+        ]
+      },
+      {
+        "month": "Januar",
+        "year": 2024,
+        "articles": [
+          "So erkennen Sie, ob es sich um einen original Charles Eames Loungechair von Vitra handelt"
+        ]
+      },
+      {
+        "month": "Januar",
+        "year": 2021,
+        "articles": [
+          "USM Haller - Schlüsselnummer herausfinden, um einen Schlüssel nachbestellen zu können."
+        ]
+      }
+    ],
+    "footer_navigation_groups": [
+      {
+        "title": "Gesetzliche Informationen",
+        "links": [
+          "Allgemeine Geschäftsbedingungen",
+          "Datenschutz",
+          "Impressum",
+          "Widerrufsbelehrung & Widerrufsformular"
+        ]
+      },
+      {
+        "title": "Ankauf",
+        "links": [
+          "Ankauf",
+          "Ankauf Cassina",
+          "Ankauf USM Haller",
+          "Ankauf Vitra"
+        ]
+      },
+      {
+        "title": "Diverses",
+        "links": [
+          "USM Haller Lagerverkauf",
+          "USM Haller Lagerverkauf in Bensheim",
+          "Räumungsverkauf USM Haller und Vitra in Mannheim",
+          "USM Haller Angebote",
+          "USM Haller gebraucht",
+          "USM Haller Lagerverkauf Frankfurt am Main",
+          "USM Haller Sideboard",
+          "USM Sideboard",
+          "Vitra Lagerverkauf"
+        ]
+      },
+      {
+        "title": "Hilfe & Kontakt",
+        "links": [
+          "Montage",
+          "Über uns",
+          "Termine vereinbaren",
+          "Zahlungsmöglichkeiten",
+          "Sitemap",
+          "Versandkosten",
+          "Newsletter"
+        ]
+      }
+    ],
+    "social_media": [
+      "Facebook",
+      "YouTube",
+      "Instagram",
+      "LinkedIn"
+    ]
+  }
+}
